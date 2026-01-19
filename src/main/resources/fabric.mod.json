@@ -1,0 +1,21 @@
+
+{
+  "schemaVersion": 1,
+  "id": "apexsensitivity",
+  "version": "1.0.0",
+  "name": "Apex Sensitivity",
+  "description": "Advanced context-aware sensitivity profiles.",
+  "authors": ["Apex"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.apex.sensitivity.client.ApexSensitivityClient"],
+    "modmenu": ["dev.apex.sensitivity.integration.ModMenuEntry"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.1",
+    "cloth-config": ">=15.0.0",
+    "modmenu": "*"
+  }
+}
