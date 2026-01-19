@@ -1,12 +1,17 @@
-﻿.gradle/
+﻿# Gradle
+.gradle/
 build/
 run/
 logs/
 remappedSrc/
+temp_gradle/
+gradle-dist.zip
 
+# IDE
 .idea/
 .vscode/
 *.iml
 
+# OS
 .DS_Store
 Thumbs.db
